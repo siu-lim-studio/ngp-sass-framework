@@ -1,0 +1,68 @@
+// #metrics
+$gap: 10px;
+$gridsize: 12;
+$breakpoints: ("small":768px,"medium": 1024px,"large": 1200px);
+
+.ngp-row{
+  margin-left: -1*$gap;
+  margin-right: -1*$gap;
+  &:after{
+    content: " ";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+    }
+   }
+
+.ngp-column{
+  display: inline;
+  vertical-align:baseline;
+  padding-left: $gap;
+  padding-right: $gap;
+  float: left;
+}
+
+.ngp-column div{
+  background: #ccc;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  color: #222222;
+}
+
+//and finally some demo styles
+.ngp-column.clr{
+  clear: both
+}
+
+//default styles
+@for $i from 1 through $gridsize{
+  .ngp-column-#{$i}{
+    width:  ( $i /$gridsize ) *100% 
+  }
+}
+
+@each $slug, $size in $breakpoints{
+  @media (max-width: #{$size}){
+   @if $slug == small {
+    @for $i from 1 through $gridsize{
+      .ngp-column-#{$slug}-#{$i}{
+           width: 100%
+         }
+        }
+      } 
+   @else{
+      @for $i from 1 through $gridsize{
+      .ngp-column-#{$slug}-#{$i}{
+           width: ( $i /$gridsize ) *100%
+         }
+        }
+      }
+  }
+  
+}
+
+
+

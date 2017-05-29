@@ -1,0 +1,18 @@
+.ngp-display-topleft{position:absolute;left:0;top:0}.ngp-display-topright{position:absolute;right:0;top:0}
+.ngp-display-bottomleft{position:absolute;left:0;bottom:0}.ngp-display-bottomright{position:absolute;right:0;bottom:0}
+.ngp-display-middle{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
+.ngp-display-left{position:absolute;top:50%;left:0%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%)}
+.ngp-display-right{position:absolute;top:50%;right:0%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%)}
+.ngp-display-topmiddle{position:absolute;left:50%;top:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}
+.ngp-display-bottommiddle{position:absolute;left:50%;bottom:0;transform:translate(-50%,0%);-ms-transform:translate(-50%,0%)}
+
+.ngp-display-container{position:relative}
+
+.ngp-display-container:hover .ngp-display-hover{display:block}.ngp-display-container:hover span.ngp-display-hover{display:inline-block}.ngp-display-hover{display:none}
+.ngp-display-position{position:absolute}
+
+.ngp-left{float:left!important}.ngp-right{float:right!important}
+
+.ngp-hide{display:none!important}
+
+.ngp-show-block,.ngp-show{display:block!important}

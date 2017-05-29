@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="./ngp-css/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <link href="./ngp-css/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
+
+  <!--[if IE]>
+      <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <![endif]-->
+
+<body>
+
+<div class="ngp-container">
+  <h2>Mobile First Responsiveness</h2>
+  <p class="ngp-large">Try to resize the window!</p>
+</div>
+
+<div class="ngp-row ngp-border">
+  <div class="ngp-container ngp-half ngp-red">
+    <h2>ngp-half</h2>  
+    <p>The ngp-half class uses 50% of the parent container.</p>
+    <p>On screens smaller than 601 pixels it resizes to 100%.</p>
+  </div>
+  <div class="ngp-container ngp-half">
+    <h2>ngp-half</h2>  
+  </div>
+</div>
+
+
+
+<div class="ngp-row ngp-border">
+<div class="ngp-third ngp-container ngp-red">
+  <h2>ngp-third</h2>  
+  <p>The ngp-third class uses 33% of the parent container.</p>
+  <p>On screens smaller than 601 pixels it resizes to full screen.</p>
+</div>
+<div class="ngp-third ngp-container">
+  <h2>ngp-third</h2>
+</div>
+<div class="ngp-third ngp-container">
+  <h2>ngp-third</h2>
+</div>
+</div>
+
+
+
+<div class="ngp-row ngp-border">
+<div class="ngp-twothird ngp-container ngp-red">
+  <h2>ngp-twothird</h2>  
+  <p>The ngp-twothird class uses 66% of the parent container.</p>
+  <p>On screens smaller than 601 pixels it resizes to full screen.</p>
+</div>
+<div class="ngp-third ngp-container">
+  <h2>ngp-third</h2>
+  <p>The ngp-twothird class uses 33% of parent container.</p>
+  <p>On screens smaller than 601 pixels it resizes to full screen.</p>
+</div>
+</div>
+<br>
+
+<div class="ngp-row ngp-border">
+<div class="ngp-third ngp-container">
+  <h2>ngp-third</h2>
+  <p>The ngp-twothird class uses 33% of parent container.</p>
+  <p>On screens smaller than 601 pixels it resizes to full screen.</p>
+</div>
+<div class="ngp-twothird ngp-container ngp-red">
+  <h2>ngp-twothird</h2>  
+  <p>The ngp-twothird class uses 66% of the parent container.</p>
+  <p>On screens smaller than 601 pixels it resizes to full screen.</p>
+</div>
+</div>
+
+
+
+
+<div class="ngp-row ngp-border">
+<div class="ngp-quarter ngp-container ngp-red">
+  <h2>ngp-quarter</h2>  
+  <p>The ngp-quarter class uses 25% of the parent container.</p>
+  <p>On screens smaller than 601 pixels it resizes to full screen.</p>
+</div>
+<div class="ngp-quarter ngp-container">
+  <h2>ngp-quarter</h2>
+</div>
+<div class="ngp-quarter ngp-container">
+  <h2>ngp-quarter</h2>
+</div>
+<div class="ngp-quarter ngp-container">
+  <h2>ngp-quarter</h2>
+</div>
+</div>
+
+<div class="ngp-row ngp-border">
+<div class="ngp-threequarter ngp-container ngp-red">
+  <h2>ngp-threequarter</h2>  
+  <p>The ngp-threequarter class uses 75% of the parent container.</p>
+  <p>On screens smaller than 601 pixels it resizes to full screen.</p>
+</div>
+<div class="ngp-quarter ngp-container">
+  <h2>ngp-quarter</h2>
+</div>
+</div>
+
+<div class="ngp-container">
+  <h2>Using ngp-rest</h2>
+  <p>The ngp-rest class will use what's left of the grid column.</p>
+</div>
+
+<div class="ngp-row">
+  <div class="ngp-col ngp-container ngp-blue" style="width:150px"><p>150px</p></div>
+  <div class="ngp-rest ngp-container ngp-green"><p>ngp-rest</p></div>
+</div>
+<br>
+
+<div class="ngp-row">
+  <div class="ngp-col ngp-right ngp-container ngp-blue" style="width:75px"><p>75px</p></div>
+  <div class="ngp-rest ngp-container ngp-green"><p>ngp-rest</p></div>
+</div>
+<br>
+
+<div class="ngp-row">
+  <div class="ngp-col ngp-left ngp-container ngp-blue" style="width:100px"><p>100px</p></div>
+  <div class="ngp-col ngp-right ngp-container ngp-blue" style="width:100px"><p>100px</p></div>
+  <div class="ngp-rest ngp-container ngp-green"><p>ngp-rest</p></div>
+</div>
+<br>
+
+<div class="ngp-row">
+  <div class="ngp-quarter ngp-container ngp-red"><p>quarter</p></div>
+  <div class="ngp-half">
+    <div class="ngp-row">
+      <div class="ngp-col ngp-container ngp-blue" style="width:80px"><p>80px</p></div>
+      <div class="ngp-rest ngp-container ngp-green"><p>ngp-rest</p></div>
+    </div>
+  </div>
+  <div class="ngp-quarter ngp-container ngp-purple"><p>quarter</p></div>
+</div>
+<br>
+
+<div class="ngp-row">
+  <div class="ngp-quarter ngp-container ngp-red"><p>quarter</p></div>
+  <div class="ngp-quarter ngp-container ngp-purple"><p>quarter</p></div>
+  <div class="ngp-half">
+    <div class="ngp-row">
+      <div class="ngp-col ngp-container ngp-blue" style="width:35%"><p>35%</p></div>
+      <div class="ngp-rest ngp-container ngp-green"><p>ngp-rest</p></div>
+    </div>
+  </div>
+</div>
+
+<div class="ngp-container">
+  <h2>The ngp-mobile Class</h2>
+  <p>The <strong>ngp-mobile</strong> class adds mobile-first responsivenss to any element.</p>
+  <p>It adds display:block and width:100% to an element on screens that are less than 600px wide.</p>
+
+  <p>Resize the browser window to see the effect:</p>
+  <button class="ngp-button ngp-black ngp-mobile">Home</button>
+  <button class="ngp-button ngp-black ngp-mobile">Link 1</button>
+  <button class="ngp-button ngp-black ngp-mobile">Link 2</button>
+  <button class="ngp-button ngp-black ngp-mobile">Link 3</button>
+</div>
+
+
+</body>
+</html>       

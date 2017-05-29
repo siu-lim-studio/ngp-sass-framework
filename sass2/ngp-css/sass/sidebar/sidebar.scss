@@ -1,0 +1,17 @@
+.ngp-sidebar{height:100%;width:200px;background-color:#fff;position:fixed!important;z-index:1;overflow:auto}
+.ngp-bar-block .ngp-dropdown-hover,.ngp-bar-block .ngp-dropdown-click{width:100%}
+.ngp-bar-block .ngp-dropdown-hover .ngp-dropdown-content,.ngp-bar-block .ngp-dropdown-click .ngp-dropdown-content{min-width:100%}
+.ngp-bar-block .ngp-dropdown-hover .ngp-button,.ngp-bar-block .ngp-dropdown-click .ngp-button{width:100%;text-align:left;padding:8px 16px}
+
+.ngp-main,#main{transition:margin-left .4s}
+
+@media (max-width:600px){.ngp-modal-content{margin:0 10px;width:auto!important}.ngp-modal{padding-top:30px}
+.ngp-dropdown-hover.ngp-mobile .ngp-dropdown-content,.ngp-dropdown-click.ngp-mobile .ngp-dropdown-content{position:relative}	
+.ngp-hide-small{display:none!important}.ngp-mobile{display:block;width:100%!important}.ngp-bar-item.ngp-mobile,.ngp-dropdown-hover.ngp-mobile,.ngp-dropdown-click.ngp-mobile{text-align:center}
+.ngp-dropdown-hover.ngp-mobile,.ngp-dropdown-hover.ngp-mobile .ngp-btn,.ngp-dropdown-hover.ngp-mobile .ngp-button,.ngp-dropdown-click.ngp-mobile,.ngp-dropdown-click.ngp-mobile .ngp-btn,.ngp-dropdown-click.ngp-mobile .ngp-button{width:100%}}
+
+
+
+@media (min-width:993px){.ngp-modal-content{width:900px}.ngp-hide-large{display:none!important}.ngp-sidebar.ngp-collapse{display:block!important}}
+@media (max-width:992px) and (min-width:601px){.ngp-hide-medium{display:none!important}}
+@media (max-width:992px){.ngp-sidebar.ngp-collapse{display:none}.ngp-main{margin-left:0!important;margin-right:0!important}}

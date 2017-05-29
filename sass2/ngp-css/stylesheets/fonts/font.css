@@ -1,0 +1,189 @@
+/* line 1, ../../sass/fonts/font.scss */
+.ngp-tiny {
+  font-size: 10px !important;
+}
+
+/* line 1, ../../sass/fonts/font.scss */
+.ngp-small {
+  font-size: 12px !important;
+}
+
+/* line 1, ../../sass/fonts/font.scss */
+.ngp-medium {
+  font-size: 15px !important;
+}
+
+/* line 1, ../../sass/fonts/font.scss */
+.ngp-large {
+  font-size: 18px !important;
+}
+
+/* line 2, ../../sass/fonts/font.scss */
+.ngp-xlarge {
+  font-size: 24px !important;
+}
+
+/* line 2, ../../sass/fonts/font.scss */
+.ngp-xxlarge {
+  font-size: 36px !important;
+}
+
+/* line 2, ../../sass/fonts/font.scss */
+.ngp-xxxlarge {
+  font-size: 48px !important;
+}
+
+/* line 2, ../../sass/fonts/font.scss */
+.ngp-jumbo {
+  font-size: 64px !important;
+}
+
+/* line 3, ../../sass/fonts/font.scss */
+.ngp-left-align {
+  text-align: left !important;
+}
+
+/* line 3, ../../sass/fonts/font.scss */
+.ngp-right-align {
+  text-align: right !important;
+}
+
+/* line 3, ../../sass/fonts/font.scss */
+.ngp-justify {
+  text-align: justify !important;
+}
+
+/* line 3, ../../sass/fonts/font.scss */
+.ngp-center {
+  text-align: center !important;
+}
+
+/* line 8, ../../sass/fonts/font.scss */
+.ngp-text-red, .ngp-hover-text-red:hover {
+  color: #f44336 !important;
+}
+
+/* line 9, ../../sass/fonts/font.scss */
+.ngp-text-green, .ngp-hover-text-green:hover {
+  color: #4CAF50 !important;
+}
+
+/* line 10, ../../sass/fonts/font.scss */
+.ngp-text-blue, .ngp-hover-text-blue:hover {
+  color: #2196F3 !important;
+}
+
+/* line 11, ../../sass/fonts/font.scss */
+.ngp-text-yellow, .ngp-hover-text-yellow:hover {
+  color: #ffeb3b !important;
+}
+
+/* line 12, ../../sass/fonts/font.scss */
+.ngp-text-white, .ngp-hover-text-white:hover {
+  color: #fff !important;
+}
+
+/* line 13, ../../sass/fonts/font.scss */
+.ngp-text-black, .ngp-hover-text-black:hover {
+  color: #000 !important;
+}
+
+/* line 14, ../../sass/fonts/font.scss */
+.ngp-text-grey, .ngp-hover-text-grey:hover, .ngp-text-gray, .ngp-hover-text-gray:hover {
+  color: #757575 !important;
+}
+
+/* line 15, ../../sass/fonts/font.scss */
+.ngp-text-amber {
+  color: #ffc107 !important;
+}
+
+/* line 16, ../../sass/fonts/font.scss */
+.ngp-text-aqua {
+  color: #00ffff !important;
+}
+
+/* line 17, ../../sass/fonts/font.scss */
+.ngp-text-light-blue {
+  color: #87CEEB !important;
+}
+
+/* line 18, ../../sass/fonts/font.scss */
+.ngp-text-brown {
+  color: #795548 !important;
+}
+
+/* line 19, ../../sass/fonts/font.scss */
+.ngp-text-cyan {
+  color: #00bcd4 !important;
+}
+
+/* line 20, ../../sass/fonts/font.scss */
+.ngp-text-blue-grey, .ngp-text-blue-gray {
+  color: #607d8b !important;
+}
+
+/* line 21, ../../sass/fonts/font.scss */
+.ngp-text-light-green {
+  color: #8bc34a !important;
+}
+
+/* line 22, ../../sass/fonts/font.scss */
+.ngp-text-indigo {
+  color: #3f51b5 !important;
+}
+
+/* line 23, ../../sass/fonts/font.scss */
+.ngp-text-khaki {
+  color: #b4aa50 !important;
+}
+
+/* line 24, ../../sass/fonts/font.scss */
+.ngp-text-lime {
+  color: #cddc39 !important;
+}
+
+/* line 25, ../../sass/fonts/font.scss */
+.ngp-text-orange {
+  color: #ff9800 !important;
+}
+
+/* line 26, ../../sass/fonts/font.scss */
+.ngp-text-deep-orange {
+  color: #ff5722 !important;
+}
+
+/* line 27, ../../sass/fonts/font.scss */
+.ngp-text-pink {
+  color: #e91e63 !important;
+}
+
+/* line 28, ../../sass/fonts/font.scss */
+.ngp-text-purple {
+  color: #9c27b0 !important;
+}
+
+/* line 29, ../../sass/fonts/font.scss */
+.ngp-text-deep-purple {
+  color: #673ab7 !important;
+}
+
+/* line 30, ../../sass/fonts/font.scss */
+.ngp-text-sand {
+  color: #fdf5e6 !important;
+}
+
+/* line 31, ../../sass/fonts/font.scss */
+.ngp-text-teal {
+  color: #009688 !important;
+}
+
+/* line 32, ../../sass/fonts/font.scss */
+.ngp-text-light-grey, .ngp-hover-text-light-grey:hover, .ngp-text-light-gray, .ngp-hover-text-light-gray:hover {
+  color: #f1f1f1 !important;
+}
+
+/* line 33, ../../sass/fonts/font.scss */
+.ngp-text-dark-grey, .ngp-hover-text-dark-grey:hover, .ngp-text-dark-gray, .ngp-hover-text-dark-gray:hover {
+  color: #3a3a3a !important;
+}

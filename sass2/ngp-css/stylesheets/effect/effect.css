@@ -1,0 +1,54 @@
+/* line 1, ../../sass/effect/effect.scss */
+.ngp-opacity, .ngp-hover-opacity:hover {
+  opacity: 0.60;
+}
+
+/* line 1, ../../sass/effect/effect.scss */
+.ngp-opacity-off, .ngp-hover-opacity-off:hover {
+  opacity: 1;
+}
+
+/* line 2, ../../sass/effect/effect.scss */
+.ngp-opacity-max {
+  opacity: 0.25;
+}
+
+/* line 2, ../../sass/effect/effect.scss */
+.ngp-opacity-min {
+  opacity: 0.75;
+}
+
+/* line 3, ../../sass/effect/effect.scss */
+.ngp-greyscale-max, .ngp-grayscale-max, .ngp-hover-greyscale:hover, .ngp-hover-grayscale:hover {
+  filter: grayscale(100%);
+}
+
+/* line 4, ../../sass/effect/effect.scss */
+.ngp-greyscale, .ngp-grayscale {
+  filter: grayscale(75%);
+}
+
+/* line 4, ../../sass/effect/effect.scss */
+.ngp-greyscale-min, .ngp-grayscale-min {
+  filter: grayscale(50%);
+}
+
+/* line 5, ../../sass/effect/effect.scss */
+.ngp-sepia {
+  filter: sepia(75%);
+}
+
+/* line 5, ../../sass/effect/effect.scss */
+.ngp-sepia-max, .ngp-hover-sepia:hover {
+  filter: sepia(100%);
+}
+
+/* line 5, ../../sass/effect/effect.scss */
+.ngp-sepia-min {
+  filter: sepia(50%);
+}
+
+/* line 7, ../../sass/effect/effect.scss */
+.ngp-text-shadow {
+  text-shadow: 1px 1px 0 #444;
+}

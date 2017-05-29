@@ -1,0 +1,18 @@
+/* line 1, ../../sass/containers/containers.scss */
+.ngp-container:after, .ngp-container:before, .ngp-panel:after, .ngp-panel:before, .ngp-row:after, .ngp-row:before, .ngp-row-padding:after, .ngp-row-padding:before,
+.ngp-cell-row:before, .ngp-cell-row:after, .ngp-clear:after, .ngp-clear:before, .ngp-bar:before, .ngp-bar:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 5, ../../sass/containers/containers.scss */
+.ngp-container, .ngp-panel {
+  padding: 0.01em 16px;
+}
+
+/* line 6, ../../sass/containers/containers.scss */
+.ngp-panel {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}

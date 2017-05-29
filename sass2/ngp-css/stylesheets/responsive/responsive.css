@@ -1,0 +1,291 @@
+/* line 1, ../../sass/responsive/responsive.scss */
+.ngp-responsive {
+  overflow-x: auto;
+}
+
+/* line 2, ../../sass/responsive/responsive.scss */
+.ngp-container:after, .ngp-container:before, .ngp-panel:after, .ngp-panel:before, .ngp-row:after, .ngp-row:before, .ngp-row-padding:after, .ngp-row-padding:before,
+.ngp-cell-row:before, .ngp-cell-row:after, .ngp-clear:after, .ngp-clear:before, .ngp-bar:before, .ngp-bar:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 4, ../../sass/responsive/responsive.scss */
+.ngp-col, .ngp-half, .ngp-third, .ngp-twothird, .ngp-threequarter, .ngp-quarter {
+  float: left;
+  width: 100%;
+}
+
+/* line 5, ../../sass/responsive/responsive.scss */
+.ngp-col.s1 {
+  width: 8.33333%;
+}
+
+/* line 5, ../../sass/responsive/responsive.scss */
+.ngp-col.s2 {
+  width: 16.66666%;
+}
+
+/* line 5, ../../sass/responsive/responsive.scss */
+.ngp-col.s3 {
+  width: 24.99999%;
+}
+
+/* line 5, ../../sass/responsive/responsive.scss */
+.ngp-col.s4 {
+  width: 33.33333%;
+}
+
+/* line 6, ../../sass/responsive/responsive.scss */
+.ngp-col.s5 {
+  width: 41.66666%;
+}
+
+/* line 6, ../../sass/responsive/responsive.scss */
+.ngp-col.s6 {
+  width: 49.99999%;
+}
+
+/* line 6, ../../sass/responsive/responsive.scss */
+.ngp-col.s7 {
+  width: 58.33333%;
+}
+
+/* line 6, ../../sass/responsive/responsive.scss */
+.ngp-col.s8 {
+  width: 66.66666%;
+}
+
+/* line 7, ../../sass/responsive/responsive.scss */
+.ngp-col.s9 {
+  width: 74.99999%;
+}
+
+/* line 7, ../../sass/responsive/responsive.scss */
+.ngp-col.s10 {
+  width: 83.33333%;
+}
+
+/* line 7, ../../sass/responsive/responsive.scss */
+.ngp-col.s11 {
+  width: 91.66666%;
+}
+
+/* line 7, ../../sass/responsive/responsive.scss */
+.ngp-col.s12 {
+  width: 99.99999%;
+}
+
+@media (min-width: 601px) {
+  /* line 8, ../../sass/responsive/responsive.scss */
+  .ngp-col.m1 {
+    width: 8.33333%;
+  }
+
+  /* line 8, ../../sass/responsive/responsive.scss */
+  .ngp-col.m2 {
+    width: 16.66666%;
+  }
+
+  /* line 8, ../../sass/responsive/responsive.scss */
+  .ngp-col.m3, .ngp-quarter {
+    width: 24.99999%;
+  }
+
+  /* line 8, ../../sass/responsive/responsive.scss */
+  .ngp-col.m4, .ngp-third {
+    width: 33.33333%;
+  }
+
+  /* line 9, ../../sass/responsive/responsive.scss */
+  .ngp-col.m5 {
+    width: 41.66666%;
+  }
+
+  /* line 9, ../../sass/responsive/responsive.scss */
+  .ngp-col.m6, .ngp-half {
+    width: 49.99999%;
+  }
+
+  /* line 9, ../../sass/responsive/responsive.scss */
+  .ngp-col.m7 {
+    width: 58.33333%;
+  }
+
+  /* line 9, ../../sass/responsive/responsive.scss */
+  .ngp-col.m8, .ngp-twothird {
+    width: 66.66666%;
+  }
+
+  /* line 10, ../../sass/responsive/responsive.scss */
+  .ngp-col.m9, .ngp-threequarter {
+    width: 74.99999%;
+  }
+
+  /* line 10, ../../sass/responsive/responsive.scss */
+  .ngp-col.m10 {
+    width: 83.33333%;
+  }
+
+  /* line 10, ../../sass/responsive/responsive.scss */
+  .ngp-col.m11 {
+    width: 91.66666%;
+  }
+
+  /* line 10, ../../sass/responsive/responsive.scss */
+  .ngp-col.m12 {
+    width: 99.99999%;
+  }
+}
+@media (min-width: 993px) {
+  /* line 11, ../../sass/responsive/responsive.scss */
+  .ngp-col.l1 {
+    width: 8.33333%;
+  }
+
+  /* line 11, ../../sass/responsive/responsive.scss */
+  .ngp-col.l2 {
+    width: 16.66666%;
+  }
+
+  /* line 11, ../../sass/responsive/responsive.scss */
+  .ngp-col.l3 {
+    width: 24.99999%;
+  }
+
+  /* line 11, ../../sass/responsive/responsive.scss */
+  .ngp-col.l4 {
+    width: 33.33333%;
+  }
+
+  /* line 12, ../../sass/responsive/responsive.scss */
+  .ngp-col.l5 {
+    width: 41.66666%;
+  }
+
+  /* line 12, ../../sass/responsive/responsive.scss */
+  .ngp-col.l6 {
+    width: 49.99999%;
+  }
+
+  /* line 12, ../../sass/responsive/responsive.scss */
+  .ngp-col.l7 {
+    width: 58.33333%;
+  }
+
+  /* line 12, ../../sass/responsive/responsive.scss */
+  .ngp-col.l8 {
+    width: 66.66666%;
+  }
+
+  /* line 13, ../../sass/responsive/responsive.scss */
+  .ngp-col.l9 {
+    width: 74.99999%;
+  }
+
+  /* line 13, ../../sass/responsive/responsive.scss */
+  .ngp-col.l10 {
+    width: 83.33333%;
+  }
+
+  /* line 13, ../../sass/responsive/responsive.scss */
+  .ngp-col.l11 {
+    width: 91.66666%;
+  }
+
+  /* line 13, ../../sass/responsive/responsive.scss */
+  .ngp-col.l12 {
+    width: 99.99999%;
+  }
+}
+/* line 14, ../../sass/responsive/responsive.scss */
+.ngp-content {
+  max-width: 980px;
+  margin: auto;
+}
+
+/* line 14, ../../sass/responsive/responsive.scss */
+.ngp-rest {
+  overflow: hidden;
+}
+
+/* line 15, ../../sass/responsive/responsive.scss */
+.ngp-cell-row {
+  display: table;
+  width: 100%;
+}
+
+/* line 15, ../../sass/responsive/responsive.scss */
+.ngp-cell {
+  display: table-cell;
+}
+
+/* line 16, ../../sass/responsive/responsive.scss */
+.ngp-cell-top {
+  vertical-align: top;
+}
+
+/* line 16, ../../sass/responsive/responsive.scss */
+.ngp-cell-middle {
+  vertical-align: middle;
+}
+
+/* line 16, ../../sass/responsive/responsive.scss */
+.ngp-cell-bottom {
+  vertical-align: bottom;
+}
+
+/* line 17, ../../sass/responsive/responsive.scss */
+.ngp-hide {
+  display: none !important;
+}
+
+/* line 17, ../../sass/responsive/responsive.scss */
+.ngp-show-block, .ngp-show {
+  display: block !important;
+}
+
+/* line 17, ../../sass/responsive/responsive.scss */
+.ngp-show-inline-block {
+  display: inline-block !important;
+}
+
+@media (max-width: 600px) {
+  /* line 19, ../../sass/responsive/responsive.scss */
+  .ngp-modal-content {
+    margin: 0 10px;
+    width: auto !important;
+  }
+
+  /* line 19, ../../sass/responsive/responsive.scss */
+  .ngp-modal {
+    padding-top: 30px;
+  }
+
+  /* line 20, ../../sass/responsive/responsive.scss */
+  .ngp-dropdown-hover.ngp-mobile .ngp-dropdown-content, .ngp-dropdown-click.ngp-mobile .ngp-dropdown-content {
+    position: relative;
+  }
+
+  /* line 21, ../../sass/responsive/responsive.scss */
+  .ngp-hide-small {
+    display: none !important;
+  }
+
+  /* line 21, ../../sass/responsive/responsive.scss */
+  .ngp-mobile {
+    display: block;
+    width: 100% !important;
+  }
+
+  /* line 21, ../../sass/responsive/responsive.scss */
+  .ngp-bar-item.ngp-mobile, .ngp-dropdown-hover.ngp-mobile, .ngp-dropdown-click.ngp-mobile {
+    text-align: center;
+  }
+
+  /* line 22, ../../sass/responsive/responsive.scss */
+  .ngp-dropdown-hover.ngp-mobile, .ngp-dropdown-hover.ngp-mobile .ngp-btn, .ngp-dropdown-hover.ngp-mobile .ngp-button, .ngp-dropdown-click.ngp-mobile, .ngp-dropdown-click.ngp-mobile .ngp-btn, .ngp-dropdown-click.ngp-mobile .ngp-button {
+    width: 100%;
+  }
+}

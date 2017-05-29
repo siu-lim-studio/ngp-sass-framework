@@ -1,0 +1,22 @@
+/* line 1, ../../sass/list/list.scss */
+.ngp-ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* line 1, ../../sass/list/list.scss */
+.ngp-ul li {
+  padding: 8px 16px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* line 1, ../../sass/list/list.scss */
+.ngp-ul li:last-child {
+  border-bottom: none;
+}
+
+/* line 2, ../../sass/list/list.scss */
+.ngp-ul.ngp-hoverable li:hover {
+  background-color: #ccc;
+}

@@ -1,0 +1,9 @@
+/* line 1, ../../sass/card/card.scss */
+.ngp-card, .ngp-card-2 {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+/* line 2, ../../sass/card/card.scss */
+.ngp-card-4, .ngp-hover-shadow:hover {
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}

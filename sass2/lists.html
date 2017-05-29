@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  <link href="./ngp-css/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <link href="./ngp-css/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
+  
+  
+  <!--[if IE]>
+      <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <![endif]-->
+
+  
+</head>
+<body>
+ <div class="ngp-container">
+  <h2>Basic List</h2>
+  <p>The ngp-ul class creates a basic list:</p>
+  <ul class="ngp-ul">
+    <li>Jill</li>
+    <li>Eve</li>
+    <li>Adam</li>
+  </ul>
+</div>
+
+<div class="ngp-container">
+  <h2>Bordered List</h2>
+  <p>The ngp-border class adds a border around the list:</p>
+  <ul class="ngp-ul ngp-border">
+    <li>Jill</li>
+    <li>Eve</li>
+    <li>Adam</li>
+  </ul>
+</div>
+
+<div class="ngp-container">
+  <h2>List Header</h2>
+  <p>An example of how to add a heading element inside the list item.</p>
+
+  <ul class="ngp-ul ngp-border">
+    <li><h2>Names</h2></li>
+    <li>Jill</li>
+    <li>Eve</li>
+    <li>Adam</li>
+  </ul>
+</div>
+
+<div class="ngp-container">
+  <h2>List as a Card</h2>
+  <p>The ngp-card class makes the list look like a card:</p>
+  <ul class="ngp-ul ngp-card-2" style="width:50%">
+    <li>Jill</li>
+    <li>Eve</li>
+    <li>Adam</li>
+  </ul>
+  <br>
+
+  <p>More shadows:</p>
+  <ul class="ngp-ul ngp-card-4" style="width:50%">
+    <li>Jill</li>
+    <li>Eve</li>
+    <li>Adam</li>
+  </ul>
+</div>
+
+<div class="ngp-container">
+  <h2>Centered List</h2>
+  <p>The ngp-center class centers the list items:</p>
+  <ul class="ngp-ul ngp-center">
+    <li>Jill</li>
+    <li>Eve</li>
+    <li>Adam</li>
+  </ul>
+</div>
+
+<div class="ngp-container">
+  <h2>Hoverable List</h2>
+  <p>The ngp-hoverable class adds a grey background color to all list items when you mouse over them:</p>
+  <ul class="ngp-ul ngp-hoverable">
+    <li>Jill</li>
+    <li>Eve</li>
+    <li>Adam</li>
+  </ul>
+</div>
+
+<div class="ngp-container">
+  <h2>Hoverable List</h2>
+  <p>If you want a specific hover color, add any of the ngp-hover-classes to each li element:</p>
+  <ul class="ngp-ul">
+    <li class="ngp-hover-red">Jill</li>
+    <li class="ngp-hover-green">Eve</li>
+    <li class="ngp-hover-blue">Adam</li>
+    <li class="ngp-hover-black">Bo</li>
+    <li class="ngp-hover-orange">Anja</li>
+  </ul>
+</div>
+
+<div class="ngp-container">
+  <h2>Closable List Items</h2>
+  <p>To close/hide the list items, click on the "x":</p>
+  <ul class="ngp-ul ngp-card-4">
+    <li class="ngp-display-container">Jill <span onclick="this.parentElement.style.display='none'" class="ngp-button ngp-transparent ngp-display-right">&times;</span></li>
+    <li class="ngp-display-container">Adam <span onclick="this.parentElement.style.display='none'" class="ngp-button ngp-transparent ngp-display-right">&times;</span></li>
+    <li class="ngp-display-container">Eve <span onclick="this.parentElement.style.display='none'" class="ngp-button ngp-transparent ngp-display-right">&times;</span></li>
+  </ul>
+</div>
+
+<ul class="ngp-ul ngp-card-4">
+  <li class="ngp-padding-16">
+    <span onclick="this.parentElement.style.display='none'" 
+    class="ngp-button ngp-white ngp-xlarge ngp-right">&times;</span>
+    <img src="img_avatar2.png" class="ngp-left ngp-circle ngp-margin-right" style="width:50px">
+    <span class="ngp-large">Mike</span><br>
+    <span>Web Designer</span>
+  </li>
+  <li class="ngp-padding-16">
+    <span onclick="this.parentElement.style.display='none'" 
+    class="ngp-button ngp-white ngp-xlarge ngp-right">&times;</span>
+    <img src="img_avatar5.png" class="ngp-left ngp-circle ngp-margin-right" style="width:50px">
+    <span class="ngp-large">Jill</span><br>
+    <span>Support</span>
+  </li>  
+  <li class="ngp-padding-16">
+    <span onclick="this.parentElement.style.display='none'" 
+    class="ngp-button ngp-white ngp-xlarge ngp-right">&times;</span>
+    <img src="img_avatar6.png" class="ngp-left ngp-circle ngp-margin-right" style="width:50px">
+    <span class="ngp-large">Jane</span><br>
+    <span>Accountant</span>
+  </li> 
+</ul>
+ 
+</body>
+</html>

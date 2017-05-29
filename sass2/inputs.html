@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="./ngp-css/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <link href="./ngp-css/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!--[if IE]>
+      <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <![endif]-->
+
+  
+</head>
+<body>
+ 
+ <div class="ngp-container ngp-blue">
+  <h2>Input Form</h2>
+</div>
+
+<form class="ngp-container">
+  <p>
+  <label>First Name</label>
+  <input class="ngp-input" type="text"></p>
+  <p>
+  <label>Last Name</label>
+  <input class="ngp-input" type="text"></p>
+  <p>
+  <label>Email</label>
+  <input class="ngp-input" type="text"></p>
+</form>
+
+<div class="ngp-container">
+  <h2>Input Card</h2>
+  
+  <div class="ngp-card-4">
+    <div class="ngp-container ngp-green">
+      <h2>Input Form</h2>
+    </div>
+
+    <form class="ngp-container">
+      <p>
+      <input class="ngp-input" type="text">
+      <label>First Name</label></p>
+      <p>     
+      <input class="ngp-input" type="text">
+      <label>Last Name</label></p>
+    </form>
+  </div>
+</div>
+
+<form class="ngp-container ngp-card-4" action="/action_page.php">
+  <h2 class="ngp-text-blue">Input Form</h2>
+  <p>Use any of the ngp-text-color classes to color your labels.</p>
+  <p>      
+  <label class="ngp-text-blue"><b>First Name</b></label>
+  <input class="ngp-input ngp-border" name="first" type="text"></p>
+  <p>      
+  <label class="ngp-text-blue"><b>Last Name</b></label>
+  <input class="ngp-input ngp-border" name="last" type="text"></p>
+  <p>      
+  <button class="ngp-btn ngp-blue">Register</button></p>
+</form>
+
+<form class="ngp-container ngp-card-4 ngp-light-grey">
+  <h2>Bordered Input</h2>
+  <p>Add the ngp-border class to create bordered inputs.</p>
+
+  <p><label>First Name</label>
+  <input class="ngp-input ngp-border" name="first" type="text"></p>
+
+  <p><label>Last Name</label>
+  <input class="ngp-input ngp-border" name="last" type="text"></p>
+</form>
+
+<div class="ngp-card-4">
+  <div class="ngp-container ngp-brown">
+    <h2>Input Colors</h2>
+  </div>
+  <form class="ngp-container" action="/action_page.php">
+    <p>      
+    <label class="ngp-text-brown"><b>First Name</b></label>
+    <input class="ngp-input ngp-border ngp-sand" name="first" type="text"></p>
+    <p>      
+    <label class="ngp-text-brown"><b>Last Name</b></label>
+    <input class="ngp-input ngp-border ngp-sand" name="last" type="text"></p>
+    <p>
+    <button class="ngp-btn ngp-brown">Register</button></p>
+  </form>
+</div>
+
+<form class="ngp-container ngp-card-4">
+  <h2>Checkboxes</h2>
+  <p>
+  <input class="ngp-check" type="checkbox" checked="checked">
+  <label>Milk</label></p>
+  <p>
+  <input class="ngp-check" type="checkbox">
+  <label> Sugar</label></p>
+  <p>
+  <input class="ngp-check" type="checkbox" disabled>
+  <label>Lemon (Disabled)</label></p>
+</form>
+
+<form class="ngp-container ngp-card-4">
+  <h2>Radio Buttons</h2>
+  <p>
+  <input class="ngp-radio" type="radio" name="gender" value="male" checked>
+  <label>Male</label></p>
+  <p>
+  <input class="ngp-radio" type="radio" name="gender" value="female">
+  <label>Female</label></p>
+  <p>
+  <input class="ngp-radio" type="radio" name="gender" value="" disabled>
+  <label>Don't know (Disabled)</label></p>
+</form>
+
+<form class="ngp-container ngp-card-4" action="/action_page.php">
+  <h1>Select Your Free Option</h1>
+
+  <select class="ngp-select" name="option">
+    <option value="" disabled selected>Choose your option</option>
+    <option value="1">Option 1</option>
+    <option value="2">Option 2</option>
+    <option value="3">Option 3</option>
+  </select>
+
+  <p><button class="ngp-btn ngp-teal">Register</button></p>
+</form>
+
+
+<form action="#" class="ngp-container ngp-card-4 ngp-light-grey ngp-text-blue ngp-margin">
+<h2 class="ngp-center">Contact Us</h2>
+ 
+<div class="ngp-row ngp-section">
+  <div class="ngp-col" style="width:50px"><i class="ngp-xxlarge fa fa-user"></i></div>
+    <div class="ngp-rest">
+      <input class="ngp-input ngp-border" name="first" type="text" placeholder="First Name">
+    </div>
+</div>
+
+<div class="ngp-row ngp-section">
+  <div class="ngp-col" style="width:50px"><i class="ngp-xxlarge fa fa-user"></i></div>
+    <div class="ngp-rest">
+      <input class="ngp-input ngp-border" name="last" type="text" placeholder="Last Name">
+    </div>
+</div>
+
+<div class="ngp-row ngp-section">
+  <div class="ngp-col" style="width:50px"><i class="ngp-xxlarge fa fa-envelope-o"></i></div>
+    <div class="ngp-rest">
+      <input class="ngp-input ngp-border" name="email" type="text" placeholder="Email">
+    </div>
+</div>
+
+<div class="ngp-row ngp-section">
+  <div class="ngp-col" style="width:50px"><i class="ngp-xxlarge fa fa-phone"></i></div>
+    <div class="ngp-rest">
+      <input class="ngp-input ngp-border" name="phone" type="text" placeholder="Phone">
+    </div>
+</div>
+
+<div class="ngp-row ngp-section">
+  <div class="ngp-col" style="width:50px"><i class="ngp-xxlarge fa fa-pencil"></i></div>
+    <div class="ngp-rest">
+      <input class="ngp-input ngp-border" name="message" type="text" placeholder="Message">
+    </div>
+</div>
+
+<button class="ngp-button ngp-block ngp-section ngp-blue ngp-ripple ngp-padding">Send</button>
+
+</form>
+
+</body>
+</html>

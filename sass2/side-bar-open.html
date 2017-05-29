@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="./ngp-css/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+ <link href="./ngp-css/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
+<body>
+
+<!-- Sidebar -->
+<div class="ngp-sidebar ngp-bar-block ngp-border-right" style="display:none" id="mySidebar">
+  <button onclick="w3_close()" class="ngp-bar-item ngp-large">Close &times;</button>
+  <a href="#" class="ngp-bar-item ngp-button">Link 1</a>
+  <a href="#" class="ngp-bar-item ngp-button">Link 2</a>
+  <a href="#" class="ngp-bar-item ngp-button">Link 3</a>
+</div>
+
+<!-- Page Content -->
+<div class="ngp-teal">
+  <button class="ngp-button ngp-teal ngp-xlarge" onclick="w3_open()">&#9776;</button>
+  <div class="ngp-container">
+    <h1>My Page</h1>
+  </div>
+</div>
+
+<img src="img_car.jpg" alt="Car" style="width:100%">
+
+<div class="ngp-container">
+<p>This sidebar is hidden by default, (style="display:none")</p>
+<p>You must click on the "hamburger" icon (top left) to open it.</p>
+<p>The sidebar will hide a part of the page content.</p>
+</div>
+
+<script>
+function w3_open() {
+    document.getElementById("mySidebar").style.width = "100%";
+    document.getElementById("mySidebar").style.display = "block";
+}
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+     
+</body>
+</html> 

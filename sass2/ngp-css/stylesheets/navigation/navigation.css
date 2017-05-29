@@ -1,0 +1,196 @@
+/* bars */
+/* line 2, ../../sass/navigation/navigation.scss */
+.ngp-bar-block .ngp-dropdown-hover, .ngp-bar-block .ngp-dropdown-click {
+  width: 100%;
+}
+
+/* line 3, ../../sass/navigation/navigation.scss */
+.ngp-bar-block .ngp-dropdown-hover .ngp-dropdown-content, .ngp-bar-block .ngp-dropdown-click .ngp-dropdown-content {
+  min-width: 100%;
+}
+
+/* line 4, ../../sass/navigation/navigation.scss */
+.ngp-bar-block .ngp-dropdown-hover .ngp-button, .ngp-bar-block .ngp-dropdown-click .ngp-button {
+  width: 100%;
+  text-align: left;
+  padding: 8px 16px;
+}
+
+/* line 5, ../../sass/navigation/navigation.scss */
+.ngp-main, #main {
+  transition: margin-left .4s;
+}
+
+/* line 6, ../../sass/navigation/navigation.scss */
+.ngp-modal {
+  z-index: 3;
+  display: none;
+  padding-top: 100px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/* line 7, ../../sass/navigation/navigation.scss */
+.ngp-modal-content {
+  margin: auto;
+  background-color: #fff;
+  position: relative;
+  padding: 0;
+  outline: 0;
+  width: 600px;
+}
+
+/* line 8, ../../sass/navigation/navigation.scss */
+.ngp-bar {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* line 8, ../../sass/navigation/navigation.scss */
+.ngp-center .ngp-bar {
+  display: inline-block;
+  width: auto;
+}
+
+/* line 9, ../../sass/navigation/navigation.scss */
+.ngp-bar .ngp-bar-item {
+  padding: 8px 16px;
+  float: left;
+  width: auto;
+  border: none;
+  outline: none;
+  display: block;
+}
+
+/* line 10, ../../sass/navigation/navigation.scss */
+.ngp-bar .ngp-dropdown-hover, .ngp-bar .ngp-dropdown-click {
+  position: static;
+  float: left;
+}
+
+/* line 11, ../../sass/navigation/navigation.scss */
+.ngp-bar .ngp-button {
+  white-space: normal;
+}
+
+/* line 12, ../../sass/navigation/navigation.scss */
+.ngp-bar-block .ngp-bar-item {
+  width: 100%;
+  display: block;
+  padding: 8px 16px;
+  text-align: left;
+  border: none;
+  outline: none;
+  white-space: normal;
+  float: none;
+}
+
+/* line 13, ../../sass/navigation/navigation.scss */
+.ngp-bar-block.ngp-center .ngp-bar-item {
+  text-align: center;
+}
+
+/* line 13, ../../sass/navigation/navigation.scss */
+.ngp-block {
+  display: block;
+  width: 100%;
+}
+
+/* side bar */
+/* line 16, ../../sass/navigation/navigation.scss */
+.ngp-sidebar.ngp-collapse {
+  display: block !important;
+}
+
+/* mobile */
+@media (max-width: 600px) {
+  /* line 20, ../../sass/navigation/navigation.scss */
+  ngp-modal-content {
+    margin: 0 10px;
+    width: auto !important;
+  }
+
+  /* line 20, ../../sass/navigation/navigation.scss */
+  ngp-modal {
+    padding-top: 30px;
+  }
+
+  /* line 21, ../../sass/navigation/navigation.scss */
+  ngp-dropdown-hoverngp-mobile ngp-dropdown-content, ngp-dropdown-clickngp-mobile ngp-dropdown-content {
+    position: relative;
+  }
+
+  /* line 22, ../../sass/navigation/navigation.scss */
+  ngp-hide-small {
+    display: none !important;
+  }
+
+  /* line 22, ../../sass/navigation/navigation.scss */
+  ngp-mobile {
+    display: block;
+    width: 100% !important;
+  }
+
+  /* line 22, ../../sass/navigation/navigation.scss */
+  ngp-bar-itemngp-mobile, ngp-dropdown-hoverngp-mobile, ngp-dropdown-clickngp-mobile {
+    text-align: center;
+  }
+
+  /* line 23, ../../sass/navigation/navigation.scss */
+  ngp-dropdown-hoverngp-mobile, ngp-dropdown-hoverngp-mobile ngp-btn, ngp-dropdown-hoverngp-mobile ngp-button, ngp-dropdown-clickngp-mobile, ngp-dropdown-clickngp-mobile ngp-btn, ngp-dropdown-clickngp-mobile ngp-button {
+    width: 100%;
+  }
+}
+/* drop down  */
+/* line 26, ../../sass/navigation/navigation.scss */
+ngp-dropdown-click, ngp-dropdown-hover {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* line 27, ../../sass/navigation/navigation.scss */
+ngp-dropdown-hover:hover ngp-dropdown-content {
+  display: block;
+  z-index: 1;
+}
+
+/* line 28, ../../sass/navigation/navigation.scss */
+ngp-dropdown-hover:first-child, ngp-dropdown-click:hover {
+  background-color: #ccc;
+  color: #000;
+}
+
+/* line 29, ../../sass/navigation/navigation.scss */
+ngp-dropdown-hover:hover > ngp-button:first-child, ngp-dropdown-click:hover > ngp-button:first-child {
+  background-color: #ccc;
+  color: #000;
+}
+
+/* line 30, ../../sass/navigation/navigation.scss */
+ngp-dropdown-content {
+  cursor: auto;
+  color: #000;
+  background-color: #fff;
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 32, ../../sass/navigation/navigation.scss */
+.ngp-dropdown-content {
+  display: none;
+}
+
+/* line 33, ../../sass/navigation/navigation.scss */
+.ngp-dropdown-hover:hover > .ngp-dropdown-content {
+  display: block;
+}

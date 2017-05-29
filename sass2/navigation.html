@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="./ngp-css/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <link href="./ngp-css/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
+
+  <!--[if IE]>
+      <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+  <![endif]-->
+
+  
+</head>
+<body>
+ <div class="ngp-container">
+  <h2>Navigation Bars</h2>
+  <p>The <strong>ngp-bar</strong> class is a container for displaying HTML elements horizontally.</p>
+  <p>The <strong>ngp-bar-item</strong> class defines the container elements.</p>
+  <p>It it a perfect tool for creating navigation bars:</p>
+</div>
+
+<div class="ngp-bar ngp-black">
+  <a href="#" class="ngp-bar-item ngp-button">Home</a>
+  <a href="#" class="ngp-bar-item ngp-button">Link 1</a>
+  <a href="#" class="ngp-bar-item ngp-button">Link 2</a>
+  <a href="#" class="ngp-bar-item ngp-button">Link 3</a>
+</div>
+
+<div class="ngp-container">
+<h2>Responsive Navigation Bars</h2>
+
+<p>The <strong>ngp-mobile</strong> class defines responsive elements.</p>
+<p>On medium and large screens (tablets and desktops), the bar items will appear side by side horizontally. On smalls screens (smartphones), the items are vertically and centered:</p>
+<p><strong>Resize the browser window to see the effect.</strong></p>
+
+<p>Default navigation bar:</p>
+<div class="ngp-bar ngp-black">
+  <a href="#" class="ngp-bar-item ngp-button">Home</a>
+  <a href="#" class="ngp-bar-item ngp-button">Link 1</a>
+  <a href="#" class="ngp-bar-item ngp-button">Link 2</a>
+  <a href="#" class="ngp-bar-item ngp-button">Link 3</a>
+</div>
+
+<p>Responsive navigation bar:</p>
+<div class="ngp-bar ngp-black">
+  <a href="#" class="ngp-bar-item ngp-button ngp-mobile">Home</a>
+  <a href="#" class="ngp-bar-item ngp-button ngp-mobile">Link 1</a>
+  <a href="#" class="ngp-bar-item ngp-button ngp-mobile">Link 2</a>
+  <a href="#" class="ngp-bar-item ngp-button ngp-mobile">Link 3</a>
+</div>
+</div>
+
+
+<div class="ngp-container">
+  <h2>Navigation Bar with Dropdown</h2>
+  <p>Add a dropdown menu inside the navigation bar:</p>
+  <style>
+    
+  </style> 
+  <div class="ngp-bar ngp-light-grey">
+    <a href="#" class="ngp-bar-item ngp-button">Home</a>
+    <a href="#" class="ngp-bar-item ngp-button">Link 1</a>
+    <div class="ngp-dropdown-hover">
+      <button class="ngp-button">Dropdown</button>
+      <div class="ngp-dropdown-content ngp-bar-block ngp-card-4" >
+        <a href="#" class="ngp-bar-item ngp-button">Link 1</a>
+        <a href="#" class="ngp-bar-item ngp-button">Link 2</a>
+        <a href="#" class="ngp-bar-item ngp-button">Link 3</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="ngp-container">
+  <h2>Dropdown Button</h2>
+  <p>Move the mouse over the button to open the dropdown content.</p>
+  <div class="ngp-dropdown-hover">
+    <button class="ngp-button ngp-black">Hover Over Me!</button>
+    <div class="ngp-dropdown-content ngp-bar-block ngp-border" >
+      <a href="#" class="ngp-bar-item ngp-button">Link 1</a>
+      <a href="#" class="ngp-bar-item ngp-button">Link 2</a>
+      <a href="#" class="ngp-bar-item ngp-button">Link 3</a>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

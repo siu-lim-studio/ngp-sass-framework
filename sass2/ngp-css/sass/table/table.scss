@@ -1,0 +1,12 @@
+.ngp-table,.ngp-table-all{border-collapse:collapse;border-spacing:0;width:100%;display:table}.ngp-table-all{border:1px solid #ccc}
+.ngp-bordered tr,.ngp-table-all tr{border-bottom:1px solid #ddd}.ngp-striped tbody tr:nth-child(even){background-color:#f1f1f1}
+.ngp-table-all tr:nth-child(odd){background-color:#fff}.ngp-table-all tr:nth-child(even){background-color:#f1f1f1}
+.ngp-hoverable tbody tr:hover,.ngp-ul.ngp-hoverable li:hover{background-color:#ccc}.ngp-centered tr th,.ngp-centered tr td{text-align:center}
+.ngp-table td,.ngp-table th,.ngp-table-all td,.ngp-table-all th{padding:8px 8px;display:table-cell;text-align:left;vertical-align:top}
+.ngp-table th:first-child,.ngp-table td:first-child,.ngp-table-all th:first-child,.ngp-table-all td:first-child{padding-left:16px}
+
+/* border */
+
+.ngp-border-0{border:0!important}.ngp-border{border:1px solid #ccc!important}
+.ngp-border-top{border-top:1px solid #ccc!important}.ngp-border-bottom{border-bottom:1px solid #ccc!important}
+.ngp-border-left{border-left:1px solid #ccc!important}.ngp-border-right{border-right:1px solid #ccc!important}

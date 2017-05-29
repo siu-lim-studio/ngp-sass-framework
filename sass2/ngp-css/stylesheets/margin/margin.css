@@ -1,0 +1,24 @@
+/* line 1, ../../sass/margin/margin.scss */
+.ngp-margin {
+  margin: 16px !important;
+}
+
+/* line 1, ../../sass/margin/margin.scss */
+.ngp-margin-top {
+  margin-top: 16px !important;
+}
+
+/* line 1, ../../sass/margin/margin.scss */
+.ngp-margin-bottom {
+  margin-bottom: 16px !important;
+}
+
+/* line 2, ../../sass/margin/margin.scss */
+.ngp-margin-left {
+  margin-left: 16px !important;
+}
+
+/* line 2, ../../sass/margin/margin.scss */
+.ngp-margin-right {
+  margin-right: 16px !important;
+}

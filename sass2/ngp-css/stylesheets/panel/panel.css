@@ -1,0 +1,15 @@
+/* line 2, ../../sass/panel/panel.scss */
+.ngp-panel .ngp-panel-header {
+  margin: 0;
+  padding: 5px;
+}
+/* line 6, ../../sass/panel/panel.scss */
+.ngp-panel .ngp-panel-body {
+  margin: 0;
+  padding: 5px;
+}
+/* line 10, ../../sass/panel/panel.scss */
+.ngp-panel .ngp-panel-footer {
+  margin: 0;
+  padding: 5px;
+}

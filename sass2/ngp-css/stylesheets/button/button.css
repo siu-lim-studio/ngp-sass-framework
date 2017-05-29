@@ -1,0 +1,52 @@
+/* line 1, ../../sass/button/button.scss */
+.ngp-btn, .ngp-button {
+  border: none;
+  display: inline-block;
+  outline: 0;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+/* line 2, ../../sass/button/button.scss */
+.ngp-btn:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* line 3, ../../sass/button/button.scss */
+.ngp-btn, .ngp-button {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* line 4, ../../sass/button/button.scss */
+.ngp-disabled, .ngp-btn:disabled, .ngp-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.3;
+}
+
+/* line 4, ../../sass/button/button.scss */
+.ngp-disabled *, :disabled * {
+  pointer-events: none;
+}
+
+/* line 5, ../../sass/button/button.scss */
+.ngp-btn.ngp-disabled:hover, .ngp-btn:disabled:hover {
+  box-shadow: none;
+}
+
+/* line 7, ../../sass/button/button.scss */
+.ngp-button:hover {
+  color: #000 !important;
+  background-color: #ccc !important;
+}

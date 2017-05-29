@@ -1,0 +1,86 @@
+/* line 1, ../../sass/table/table.scss */
+.ngp-table, .ngp-table-all {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  display: table;
+}
+
+/* line 1, ../../sass/table/table.scss */
+.ngp-table-all {
+  border: 1px solid #ccc;
+}
+
+/* line 2, ../../sass/table/table.scss */
+.ngp-bordered tr, .ngp-table-all tr {
+  border-bottom: 1px solid #ddd;
+}
+
+/* line 2, ../../sass/table/table.scss */
+.ngp-striped tbody tr:nth-child(even) {
+  background-color: #f1f1f1;
+}
+
+/* line 3, ../../sass/table/table.scss */
+.ngp-table-all tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+/* line 3, ../../sass/table/table.scss */
+.ngp-table-all tr:nth-child(even) {
+  background-color: #f1f1f1;
+}
+
+/* line 4, ../../sass/table/table.scss */
+.ngp-hoverable tbody tr:hover, .ngp-ul.ngp-hoverable li:hover {
+  background-color: #ccc;
+}
+
+/* line 4, ../../sass/table/table.scss */
+.ngp-centered tr th, .ngp-centered tr td {
+  text-align: center;
+}
+
+/* line 5, ../../sass/table/table.scss */
+.ngp-table td, .ngp-table th, .ngp-table-all td, .ngp-table-all th {
+  padding: 8px 8px;
+  display: table-cell;
+  text-align: left;
+  vertical-align: top;
+}
+
+/* line 6, ../../sass/table/table.scss */
+.ngp-table th:first-child, .ngp-table td:first-child, .ngp-table-all th:first-child, .ngp-table-all td:first-child {
+  padding-left: 16px;
+}
+
+/* border */
+/* line 10, ../../sass/table/table.scss */
+.ngp-border-0 {
+  border: 0 !important;
+}
+
+/* line 10, ../../sass/table/table.scss */
+.ngp-border {
+  border: 1px solid #ccc !important;
+}
+
+/* line 11, ../../sass/table/table.scss */
+.ngp-border-top {
+  border-top: 1px solid #ccc !important;
+}
+
+/* line 11, ../../sass/table/table.scss */
+.ngp-border-bottom {
+  border-bottom: 1px solid #ccc !important;
+}
+
+/* line 12, ../../sass/table/table.scss */
+.ngp-border-left {
+  border-left: 1px solid #ccc !important;
+}
+
+/* line 12, ../../sass/table/table.scss */
+.ngp-border-right {
+  border-right: 1px solid #ccc !important;
+}

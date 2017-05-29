@@ -1,0 +1,104 @@
+/* line 1, ../../sass/sidebar/sidebar.scss */
+.ngp-sidebar {
+  height: 100%;
+  width: 200px;
+  background-color: #fff;
+  position: fixed !important;
+  z-index: 1;
+  overflow: auto;
+}
+
+/* line 2, ../../sass/sidebar/sidebar.scss */
+.ngp-bar-block .ngp-dropdown-hover, .ngp-bar-block .ngp-dropdown-click {
+  width: 100%;
+}
+
+/* line 3, ../../sass/sidebar/sidebar.scss */
+.ngp-bar-block .ngp-dropdown-hover .ngp-dropdown-content, .ngp-bar-block .ngp-dropdown-click .ngp-dropdown-content {
+  min-width: 100%;
+}
+
+/* line 4, ../../sass/sidebar/sidebar.scss */
+.ngp-bar-block .ngp-dropdown-hover .ngp-button, .ngp-bar-block .ngp-dropdown-click .ngp-button {
+  width: 100%;
+  text-align: left;
+  padding: 8px 16px;
+}
+
+/* line 6, ../../sass/sidebar/sidebar.scss */
+.ngp-main, #main {
+  transition: margin-left .4s;
+}
+
+@media (max-width: 600px) {
+  /* line 8, ../../sass/sidebar/sidebar.scss */
+  .ngp-modal-content {
+    margin: 0 10px;
+    width: auto !important;
+  }
+
+  /* line 8, ../../sass/sidebar/sidebar.scss */
+  .ngp-modal {
+    padding-top: 30px;
+  }
+
+  /* line 9, ../../sass/sidebar/sidebar.scss */
+  .ngp-dropdown-hover.ngp-mobile .ngp-dropdown-content, .ngp-dropdown-click.ngp-mobile .ngp-dropdown-content {
+    position: relative;
+  }
+
+  /* line 10, ../../sass/sidebar/sidebar.scss */
+  .ngp-hide-small {
+    display: none !important;
+  }
+
+  /* line 10, ../../sass/sidebar/sidebar.scss */
+  .ngp-mobile {
+    display: block;
+    width: 100% !important;
+  }
+
+  /* line 10, ../../sass/sidebar/sidebar.scss */
+  .ngp-bar-item.ngp-mobile, .ngp-dropdown-hover.ngp-mobile, .ngp-dropdown-click.ngp-mobile {
+    text-align: center;
+  }
+
+  /* line 11, ../../sass/sidebar/sidebar.scss */
+  .ngp-dropdown-hover.ngp-mobile, .ngp-dropdown-hover.ngp-mobile .ngp-btn, .ngp-dropdown-hover.ngp-mobile .ngp-button, .ngp-dropdown-click.ngp-mobile, .ngp-dropdown-click.ngp-mobile .ngp-btn, .ngp-dropdown-click.ngp-mobile .ngp-button {
+    width: 100%;
+  }
+}
+@media (min-width: 993px) {
+  /* line 15, ../../sass/sidebar/sidebar.scss */
+  .ngp-modal-content {
+    width: 900px;
+  }
+
+  /* line 15, ../../sass/sidebar/sidebar.scss */
+  .ngp-hide-large {
+    display: none !important;
+  }
+
+  /* line 15, ../../sass/sidebar/sidebar.scss */
+  .ngp-sidebar.ngp-collapse {
+    display: block !important;
+  }
+}
+@media (max-width: 992px) and (min-width: 601px) {
+  /* line 16, ../../sass/sidebar/sidebar.scss */
+  .ngp-hide-medium {
+    display: none !important;
+  }
+}
+@media (max-width: 992px) {
+  /* line 17, ../../sass/sidebar/sidebar.scss */
+  .ngp-sidebar.ngp-collapse {
+    display: none;
+  }
+
+  /* line 17, ../../sass/sidebar/sidebar.scss */
+  .ngp-main {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}

@@ -1,0 +1,291 @@
+/* greens */
+/* line 2, ../../sass/colors/colors.scss */
+.ngp-green, .ngp-hover-green:hover {
+  color: #fff !important;
+  background-color: #4CAF50 !important;
+}
+
+/* line 3, ../../sass/colors/colors.scss */
+.ngp-light-green, .ngp-hover-light-green:hover {
+  color: #000 !important;
+  background-color: #8bc34a !important;
+}
+
+/* line 4, ../../sass/colors/colors.scss */
+.ngp-pale-green, .ngp-hover-pale-green:hover {
+  color: #000 !important;
+  background-color: #ddffdd !important;
+}
+
+/* line 5, ../../sass/colors/colors.scss */
+.ngp-lime, .ngp-hover-lime:hover {
+  color: #000 !important;
+  background-color: #cddc39 !important;
+}
+
+/* line 6, ../../sass/colors/colors.scss */
+.ngp-olive, .ngp-hover-olive:hover {
+  color: #fff !important;
+  background-color: #6b8e23 !important;
+}
+
+/* line 7, ../../sass/colors/colors.scss */
+.ngp-darksea-green, .ngp-hover-darksea-green:hover {
+  color: #fff !important;
+  background-color: #8fbc8f !important;
+}
+
+/* line 8, ../../sass/colors/colors.scss */
+.ngp-dark-green, .ngp-hover-dark-green:hover {
+  color: #fff !important;
+  background-color: #006800 !important;
+}
+
+/* line 9, ../../sass/colors/colors.scss */
+.ngp-teal, .ngp-hover-teal:hover {
+  color: #fff !important;
+  background-color: #009688 !important;
+}
+
+/* purples */
+/* line 12, ../../sass/colors/colors.scss */
+.ngp-purple, .ngp-hover-purple:hover {
+  color: #fff !important;
+  background-color: #9c27b0 !important;
+}
+
+/* line 13, ../../sass/colors/colors.scss */
+.ngp-deep-purple, .ngp-hover-deep-purple:hover {
+  color: #fff !important;
+  background-color: #673ab7 !important;
+}
+
+/* line 14, ../../sass/colors/colors.scss */
+.ngp-dark-stateblue, .ngp-hover-dark-stateblue:hover {
+  color: #fff !important;
+  background-color: #483d8b !important;
+}
+
+/* line 15, ../../sass/colors/colors.scss */
+.ngp-orchid, .ngp-hover-orchid:hover {
+  color: #fff !important;
+  background-color: #ba55d3 !important;
+}
+
+/* line 16, ../../sass/colors/colors.scss */
+.ngp-indigo, .ngp-hover-indigo:hover {
+  color: #fff !important;
+  background-color: #3f51b5 !important;
+}
+
+/* blues */
+/* line 19, ../../sass/colors/colors.scss */
+.ngp-aqua, .ngp-hover-aqua:hover {
+  color: #000 !important;
+  background-color: #00ffff !important;
+}
+
+/* line 20, ../../sass/colors/colors.scss */
+.ngp-blue, .ngp-hover-blue:hover {
+  color: #fff !important;
+  background-color: #2196F3 !important;
+}
+
+/* line 21, ../../sass/colors/colors.scss */
+.ngp-light-blue, .ngp-hover-light-blue:hover {
+  color: #000 !important;
+  background-color: #87CEEB !important;
+}
+
+/* line 22, ../../sass/colors/colors.scss */
+.ngp-pale-blue, .ngp-hover-pale-blue:hover {
+  color: #000 !important;
+  background-color: #ddffff !important;
+}
+
+/* pinks */
+/* line 25, ../../sass/colors/colors.scss */
+.ngp-pink, .ngp-hover-pink:hover {
+  color: #000 !important;
+  background-color: #ffc0cb !important;
+}
+
+/* line 26, ../../sass/colors/colors.scss */
+.ngp-hotpink, .ngp-hover-hotpink:hover {
+  color: #fff !important;
+  background-color: #db7093 !important;
+}
+
+/* line 27, ../../sass/colors/colors.scss */
+.ngp-deeppink, .ngp-hover-deeppink:hover {
+  color: #fff !important;
+  background-color: #c71585 !important;
+}
+
+/* reds */
+/* line 30, ../../sass/colors/colors.scss */
+.ngp-red, .ngp-hover-red:hover {
+  color: #fff !important;
+  background-color: #f44336 !important;
+}
+
+/* line 31, ../../sass/colors/colors.scss */
+.ngp-dark-red, .ngp-hover-dark-red:hover {
+  color: #fff !important;
+  background-color: #8b0000 !important;
+}
+
+/* line 32, ../../sass/colors/colors.scss */
+.ngp-fire-brick, .ngp-hover-fire-brick:hover {
+  color: #fff !important;
+  background-color: #b22222 !important;
+}
+
+/* line 33, ../../sass/colors/colors.scss */
+.ngp-pale-red, .ngp-hover-pale-red:hover {
+  color: #000 !important;
+  background-color: #ffdddd !important;
+}
+
+/* oranges */
+/* line 36, ../../sass/colors/colors.scss */
+.ngp-orange, .ngp-hover-orange:hover {
+  color: #000 !important;
+  background-color: #ff9800 !important;
+}
+
+/* line 37, ../../sass/colors/colors.scss */
+.ngp-deep-orange, .ngp-hover-deep-orange:hover {
+  color: #fff !important;
+  background-color: #ff5722 !important;
+}
+
+/* line 38, ../../sass/colors/colors.scss */
+.ngp-coral, .ngp-hover-coral:hover {
+  color: #fff !important;
+  background-color: #ff7f50 !important;
+}
+
+/* line 39, ../../sass/colors/colors.scss */
+.ngp-tomato, .ngp-hover-tomato:hover {
+  color: #fff !important;
+  background-color: #ff6347 !important;
+}
+
+/* yellows */
+/* line 42, ../../sass/colors/colors.scss */
+.ngp-yellow, .ngp-hover-yellow:hover {
+  color: #000 !important;
+  background-color: #ffeb3b !important;
+}
+
+/* line 43, ../../sass/colors/colors.scss */
+.ngp-pale-yellow, .ngp-hover-pale-yellow:hover {
+  color: #000 !important;
+  background-color: #ffffcc !important;
+}
+
+/* line 44, ../../sass/colors/colors.scss */
+.ngp-sand, .ngp-hover-sand:hover {
+  color: #000 !important;
+  background-color: #fdf5e6 !important;
+}
+
+/* line 45, ../../sass/colors/colors.scss */
+.ngp-amber, .ngp-hover-amber:hover {
+  color: #000 !important;
+  background-color: #ffc107 !important;
+}
+
+/* line 46, ../../sass/colors/colors.scss */
+.ngp-khaki, .ngp-hover-khaki:hover {
+  color: #000 !important;
+  background-color: #f0e68c !important;
+}
+
+/* cyans */
+/* line 49, ../../sass/colors/colors.scss */
+.ngp-cyan, .ngp-hover-cyan:hover {
+  color: #fff !important;
+  background-color: #00bcd4 !important;
+}
+
+/* line 50, ../../sass/colors/colors.scss */
+.ngp-royalblue, .ngp-hover-royalblue:hover {
+  color: #fff !important;
+  background-color: #4169e1 !important;
+}
+
+/* line 51, ../../sass/colors/colors.scss */
+.ngp-navy, .ngp-hover-navy:hover {
+  color: #fff !important;
+  background-color: #000080 !important;
+}
+
+/* greys */
+/* line 54, ../../sass/colors/colors.scss */
+.ngp-grey, .ngp-hover-grey:hover, .ngp-gray, .ngp-hover-gray:hover {
+  color: #000 !important;
+  background-color: #bbb !important;
+}
+
+/* line 55, ../../sass/colors/colors.scss */
+.ngp-light-grey, .ngp-hover-light-grey:hover, .ngp-light-gray, .ngp-hover-light-gray:hover {
+  color: #000 !important;
+  background-color: #f1f1f1 !important;
+}
+
+/* line 56, ../../sass/colors/colors.scss */
+.ngp-dark-grey, .ngp-hover-dark-grey:hover, .ngp-dark-gray, .ngp-hover-dark-gray:hover {
+  color: #fff !important;
+  background-color: #616161 !important;
+}
+
+/* line 57, ../../sass/colors/colors.scss */
+.ngp-blue-grey, .ngp-hover-blue-grey:hover, .ngp-blue-gray, .ngp-hover-blue-gray:hover {
+  color: #fff !important;
+  background-color: #607d8b !important;
+}
+
+/* line 58, ../../sass/colors/colors.scss */
+.ngp-state-grey, .ngp-hover-state-grey:hover {
+  color: #fff !important;
+  background-color: #608090 !important;
+}
+
+/* line 59, ../../sass/colors/colors.scss */
+.ngp-dark-state-grey, .ngp-hover-dark-state-grey:hover {
+  color: #fff !important;
+  background-color: #2f4f4f !important;
+}
+
+/* browns */
+/* line 62, ../../sass/colors/colors.scss */
+.ngp-brown, .ngp-hover-brown:hover {
+  color: #fff !important;
+  background-color: #795548 !important;
+}
+
+/* line 63, ../../sass/colors/colors.scss */
+.ngp-peru, .ngp-hover-peru:hover {
+  color: #fff !important;
+  background-color: #cd853f !important;
+}
+
+/* line 64, ../../sass/colors/colors.scss */
+.ngp-burlywood, .ngp-hover-burlywood:hover {
+  color: #000 !important;
+  background-color: #deb887 !important;
+}
+
+/* line 67, ../../sass/colors/colors.scss */
+.ngp-white, .ngp-hover-white:hover {
+  color: #000 !important;
+  background-color: #fff !important;
+}
+
+/* line 68, ../../sass/colors/colors.scss */
+.ngp-black, .ngp-hover-black:hover {
+  color: #fff !important;
+  background-color: #000 !important;
+}

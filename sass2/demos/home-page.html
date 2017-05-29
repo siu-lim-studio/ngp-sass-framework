@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <link href="../ngp-css/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+ <link href="../ngp-css/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
+ 
+<style>
+.ngp-theme {color:#fff !important;background-color:#4CAF50 !important}
+.ngp-btn {background-color:#4CAF50;margin-bottom:4px}
+.ngp-code{border-left:4px solid #4CAF50}
+.myMenu {margin-bottom:150px}
+</style>
+<body>
+
+<!-- Top -->
+<div class="ngp-top">
+  <div class="ngp-row ngp-white ngp-padding">
+    <div class="ngp-half" style="margin:4px 0 6px 0"><a href='https://www.w3schools.com'><img src='w3schools.png' alt='W3Schools.com'></a></div>
+    <div class="ngp-half ngp-margin-top ngp-wide ngp-hide-medium ngp-hide-small"><div class="ngp-right">THE WORLD'S LARGEST WEB DEVELOPER SITE</div></div>
+  </div>
+  <div class="ngp-bar ngp-theme ngp-large" style="z-index:4;">
+    <a class="ngp-bar-item ngp-button ngp-left ngp-hide-large ngp-hover-white ngp-large ngp-theme ngp-padding-16" href="javascript:void(0)" onclick="w3_open()">☰</a>
+    <a class="ngp-bar-item ngp-button ngp-hide-medium ngp-hide-small ngp-hover-white ngp-padding-16" href="javascript:void(0)" onclick="w3_show_nav('menuTut')">TUTORIALS</a>
+   <a class="ngp-bar-item ngp-button ngp-hide-medium ngp-hover-white ngp-padding-16" href="javascript:void(0)" onclick="w3_show_nav('menuRef')">REFERENCES</a>
+  </div>
+</div>
+
+<!-- Sidebar -->
+<div class="ngp-sidebar ngp-bar-block ngp-collapse ngp-animate-left" style="z-index:3;width:270px" id="mySidebar">
+  <div class="ngp-bar ngp-hide-large ngp-large">
+    <a href="javascript:void(0)" onclick="w3_show_nav('menuTut')" class="ngp-bar-item ngp-button ngp-theme ngp-hover-white ngp-padding-16" style="width:50%">Tutorials</a>
+    <a href="javascript:void(0)" onclick="w3_show_nav('menuRef')" class="ngp-bar-item ngp-button ngp-theme ngp-hover-white ngp-padding-16" style="width:50%">References</a>
+  </div>
+    <a href="javascript:void(0)" onclick="w3_close()" class="ngp-button ngp-right ngp-xlarge ngp-hide-large" title="Close Menu">×</a>
+  <div id="menuTut" class="myMenu">
+  <div class="ngp-container">
+    <h3>Tutorials</h3>
+  </div>
+  <a class="ngp-bar-item ngp-button" href="/html/default.asp">Learn HTML</a>
+  <a class="ngp-bar-item ngp-button" href="/css/default.asp">Learn CSS</a>
+  <a class="ngp-bar-item ngp-button" href="/w3css/default.asp">Learn W3.CSS</a>
+  <a class="ngp-bar-item ngp-button" href="/colors/default.asp">Learn Colors</a>
+  <a class="ngp-bar-item ngp-button" href="/js/default.asp">Learn JavaScript</a>
+  <a class="ngp-bar-item ngp-button" href="/xml/default.asp">Learn XML</a>
+  <a class="ngp-bar-item ngp-button" href="/sql/default.asp">Learn SQL</a>
+  <a class="ngp-bar-item ngp-button" href="/php/default.asp">Learn PHP</a>
+  </div>
+  <div id="menuRef" class="myMenu" style="display:none">
+  <div class="ngp-container">
+    <h3>References</h3>
+  </div>
+  <a class="ngp-bar-item ngp-button" href='/tags/default.asp'>HTML Tag Reference</a>
+  <a class="ngp-bar-item ngp-button" href='/colors/default.asp'>HTML Color Reference</a>
+  <a class="ngp-bar-item ngp-button" href='/cssref/default.asp'>CSS Reference</a>
+  <a class="ngp-bar-item ngp-button" href='/cssref/css_selectors.asp'>CSS Selector Reference</a>
+  <a class="ngp-bar-item ngp-button" href='/w3css/w3css_references.asp'>W3.CSS Reference</a>
+  <a class="ngp-bar-item ngp-button" href='/jsref/default.asp'>JavaScript Reference</a>
+  <a class="ngp-bar-item ngp-button" href='/php/php_ref_array.asp'>PHP Reference</a>
+  <a class="ngp-bar-item ngp-button" href='/sql/sql_quickref.asp'>SQL Reference</a>
+  </div>
+</div>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="ngp-overlay ngp-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 270 pixels when the sidebar is visible -->
+<div class="ngp-main ngp-container" style="margin-left:270px;margin-top:117px;">
+
+<div class="ngp-panel ngp-padding-large ngp-card-4 ngp-light-grey">
+  <h1 class="ngp-jumbo">CSS</h1>
+  <p class="ngp-xlarge">The Language for Styling Web Pages</p>
+  <a class="ngp-button ngp-theme ngp-hover-white" href="/css/default.asp">LEARN CSS</a>
+  <a class="ngp-button ngp-theme ngp-hover-white" href="/ccsref/default.asp">CSS REFERENCE</a>
+  <p class="ngp-large">
+  <p><div class="ngp-code cssHigh notranslate">
+    body {<br>
+    background-color: #d0e4fe;<br>
+    }<br><br>
+
+    h1 {<br>
+    color: orange;<br>
+    text-align: center;<br>
+    }<br><br>
+
+    p {<br>
+    font-family: "Times New Roman";<br>
+    font-size: 20px;<br>
+    }
+  </div>
+  <a class="ngp-button ngp-theme ngp-hover-white" href="/css/tryit.asp?filename=trycss_default" target="_blank">Try it Yourself</a>
+</div>
+
+<div class="ngp-panel ngp-padding-large ngp-card-4 ngp-light-grey">
+  <h1 class="ngp-jumbo">JS</h1>
+  <p class="ngp-xlarge">The Language for Programming Web Pages</p>
+  <a href="/js/default.asp" class="ngp-button ngp-theme ngp-hover-white">LEARN JS</a>
+  <a href="/jsref/default.asp" class="ngp-button ngp-theme ngp-hover-white">JS REFERENCE</a>
+
+  <p><div class="w3-code jsHigh notranslate">
+    fruits[0] = "Banana";<br>
+    fruits[1] = "Apple";<br>
+    fruits[2] = "Mango";<br>
+    fruits[3] = "Plum";<br>
+  </div>
+  <a class="ngp-button ngp-theme ngp-hover-white" href="/js/tryit.asp?filename=tryjs_default" target="_blank">Try it Yourself</a>
+</div>
+
+
+<footer class="ngp-panel ngp-padding-32 ngp-card-4 ngp-light-grey ngp-center ngp-opacity">
+  <p><nav>
+  <a href="/forum/default.asp" target="_blank">FORUM</a> |
+  <a href="/about/default.asp" target="_top">ABOUT</a>
+  </nav></p>
+</footer>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+// Script to open and close the sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+function w3_show_nav(name) {
+    document.getElementById("menuTut").style.display = "none";
+    document.getElementById("menuRef").style.display = "none";
+    document.getElementById(name).style.display = "block";
+    w3_open();
+}
+</script>
+<script src="./w3codecolors.js"></script>
+<script>
+w3CodeColor();
+</script>
+</body>
+</html>

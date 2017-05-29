@@ -1,0 +1,35 @@
+/* bars */
+.ngp-bar-block .ngp-dropdown-hover,.ngp-bar-block .ngp-dropdown-click{width:100%}
+.ngp-bar-block .ngp-dropdown-hover .ngp-dropdown-content,.ngp-bar-block .ngp-dropdown-click .ngp-dropdown-content{min-width:100%}
+.ngp-bar-block .ngp-dropdown-hover .ngp-button,.ngp-bar-block .ngp-dropdown-click .ngp-button{width:100%;text-align:left;padding:8px 16px}
+.ngp-main,#main{transition:margin-left .4s}
+.ngp-modal{z-index:3;display:none;padding-top:100px;position:fixed;left:0;top:0;width:100%;height:100%;overflow:auto;background-color:rgb(0,0,0);background-color:rgba(0,0,0,0.4)}
+.ngp-modal-content{margin:auto;background-color:#fff;position:relative;padding:0;outline:0;width:600px}
+.ngp-bar{width:100%;overflow:hidden}.ngp-center .ngp-bar{display:inline-block;width:auto}
+.ngp-bar .ngp-bar-item{padding:8px 16px;float:left;width:auto;border:none;outline:none;display:block}
+.ngp-bar .ngp-dropdown-hover,.ngp-bar .ngp-dropdown-click{position:static;float:left}
+.ngp-bar .ngp-button{white-space:normal}
+.ngp-bar-block .ngp-bar-item{width:100%;display:block;padding:8px 16px;text-align:left;border:none;outline:none;white-space:normal;float:none}
+.ngp-bar-block.ngp-center .ngp-bar-item{text-align:center}.ngp-block{display:block;width:100%}
+
+/* side bar */
+.ngp-sidebar.ngp-collapse{display:block!important}
+
+
+/* mobile */
+@media (max-width:600px){ngp-modal-content{margin:0 10px;width:auto!important}ngp-modal{padding-top:30px}
+ngp-dropdown-hoverngp-mobile ngp-dropdown-content,ngp-dropdown-clickngp-mobile ngp-dropdown-content{position:relative}	
+ngp-hide-small{display:none!important}ngp-mobile{display:block;width:100%!important}ngp-bar-itemngp-mobile,ngp-dropdown-hoverngp-mobile,ngp-dropdown-clickngp-mobile{text-align:center}
+ngp-dropdown-hoverngp-mobile,ngp-dropdown-hoverngp-mobile ngp-btn,ngp-dropdown-hoverngp-mobile ngp-button,ngp-dropdown-clickngp-mobile,ngp-dropdown-clickngp-mobile ngp-btn,ngp-dropdown-clickngp-mobile ngp-button{width:100%}}
+
+/* drop down  */
+ngp-dropdown-click,ngp-dropdown-hover{position:relative;display:inline-block;cursor:pointer}
+ngp-dropdown-hover:hover ngp-dropdown-content{display:block;z-index:1}
+ngp-dropdown-hover:first-child,ngp-dropdown-click:hover{background-color:#ccc;color:#000}
+ngp-dropdown-hover:hover > ngp-button:first-child,ngp-dropdown-click:hover > ngp-button:first-child{background-color:#ccc;color:#000}
+ngp-dropdown-content{cursor:auto;color:#000;background-color:#fff;display:none;position:absolute;min-width:160px;margin:0;padding:0}
+
+.ngp-dropdown-content{display: none}
+    .ngp-dropdown-hover:hover > .ngp-dropdown-content {
+      display: block;
+    }
